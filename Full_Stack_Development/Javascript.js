@@ -51,3 +51,34 @@ var person={
     age:"22",
     isStudent:true,
 }
+console.log("Person Object",person)
+
+//Array
+const numbers=[1,2,3,4];
+console.log(typeof numbers)
+
+//Date
+const date=new Date();
+console.log("date",date);
+
+//Map
+const myMap=new Map();
+myMap.set("name","ria");
+myMap.set("age",22);
+myMap.set(100,"one hundred");
+myMap.set(true,"boolean key");
+console.log(myMap.get(100) );
+console.log(myMap.get(true));
+console.log(myMap.get("age"));
+console.log(myMap.get("name"));
+
+//delete from the map
+myMap.delete("name");
+console.log(myMap.set("name","Kay"))
+console.log(myMap.get("name"));
+
+//functions
+function nameofFunction(name){
+    return"hello"+name;
+}
+console.log(nameofFunction(" Ray"));

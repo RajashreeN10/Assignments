@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; */
 }
 .navbar{
             background:linear-gradient(135deg, #A3C293, #3E773B);
@@ -112,11 +112,28 @@ form input,form textarea{
  margin-top: 0.5rem;
 }
 
-button{
+/* button{
     padding: 10px;
     margin: 10px;
     width: 80px;
     border-radius: 20px;
-    background-color: #a9f7a5;
+    background-color: #19a012;
     border-color: #3E773B;
+} */
+ .footer-content ul li a {
+  color: #3E773B;
+  text-decoration: none;
+  
+}
+
+.footer-content ul li a:hover {
+  text-decoration: underline;
+}
+footer{
+    background-color: #83ec7d;
+    padding: 0px;
+    margin-top: 60px;
+}
+footer p{
+    margin-left: 0%;
 }
