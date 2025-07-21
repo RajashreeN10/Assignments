@@ -1,8 +1,9 @@
 *{
-    /* box-sizing: border-box;
+
     margin: 0;
-    padding: 0; */
+    padding: 0; 
 }
+
 .navbar{
             background:linear-gradient(135deg, #A3C293, #3E773B);
             display: flex;
@@ -76,9 +77,9 @@
         width: 100%;
         
     }
-    #feedbackBtn {
+    .feedbackBtn {
     padding: 10px 20px;
-    background-color: #3E773B;
+    background-color: #368d31;
     color: white;
     border: none;
     border-radius: 8px;
@@ -120,7 +121,7 @@ form input,form textarea{
     background-color: #19a012;
     border-color: #3E773B;
 } */
- .footer-content ul li a {
+ /* .footer-content ul li a {
   color: #3E773B;
   text-decoration: none;
   
@@ -128,12 +129,76 @@ form input,form textarea{
 
 .footer-content ul li a:hover {
   text-decoration: underline;
-}
+} */
 footer{
     background-color: #83ec7d;
-    padding: 0px;
+    padding: 10px;
     margin-top: 60px;
+    position: relative;
+    display: flex;
+    min-height: auto;
 }
-footer p{
-    margin-left: 0%;
+
+footer .link{
+    text-align: right;
+    margin-right: 0%;
+    
+}
+
+footer .ul{
+    list-style: decimal;
+    margin: 0;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+
+}
+ 
+footer .ref{
+    margin-left: 40% ;
+}
+ 
+.footer-content{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer .c{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+footer .link  {
+  list-style: none;
+  padding-left: 20px;
+  margin-left: 18%;
+}
+
+/* footer .link ul li {
+  margin-bottom: 8px;
+} */
+
+footer .link ul li a {
+  color: rgb(40, 40, 68);
+  text-decoration: none;
+}
+
+footer #feedbackBtn{
+    align-items: flex-end;
+     position: absolute;
+  right: 20px;
+  bottom: 20px;
+  margin-bottom: 2%;
+  margin-right: 5%;
+    
+}
+.fb{
+    
+    
 }

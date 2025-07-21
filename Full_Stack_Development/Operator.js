@@ -1,6 +1,6 @@
 let a=30
 let x=++a
-console.log("x=",x)
+console.log("x",x)
 console.log("a=",x)
 let y=a++
 console.log("y=",y)
@@ -52,6 +52,7 @@ console.log("b=",b)
 s=b++
 console.log("s=",s)
 console.log("s=",s)
+
 t=++b
 console.log("t=",t)
 console.log("b=",b)
